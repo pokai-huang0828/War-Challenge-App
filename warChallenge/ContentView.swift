@@ -27,7 +27,15 @@ struct ContentView: View {
                     Spacer()
                 }
                 Spacer()
-                Image("dealbutton")
+                
+                Button(action: {
+                    print("Button clicked!")
+                }, label: {
+                    Image("dealbutton")
+                    
+                })
+                
+                
                 Spacer()
                 HStack{
                     Spacer()
